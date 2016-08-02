@@ -47,7 +47,6 @@ func main() {
 	chat_help(Laila)
 
 	fmt.Println("Initialized Laila. Press Ctrl+C to end process.")
-	Laila.Send("188849360698605568", ":ok_hand::robot:")
 
 	<-make(chan struct{})
 	return
